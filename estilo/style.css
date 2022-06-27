@@ -20,8 +20,11 @@
 }
 
 body {
+    height: 100%;
     font-size: 100%;
     background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-size: cover;
+    background-position: center;
 }
 
 .cabecalho {
@@ -99,6 +102,7 @@ body {
 
 .conteudo-principal-escrito-botao:hover {
     background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
 }
 
 .conteudo-principal-imagem {
