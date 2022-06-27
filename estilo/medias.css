@@ -1,3 +1,189 @@
+@media only screen and (max-width: 345px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+    }
+
+    .cabecalho-imagem {
+        height: 72px;
+        padding-bottom: 24px;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+
+    .cabecalho-menu-item {
+        font-family: var(--cor02);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--cor01);
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding-top: 16px;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        display: flex;
+        text-align: center;
+        font-family: var(--cor02);
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--cor02);
+    }
+
+    .conteudo-principal-imagem {
+        height: 350px;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        font-family: var(--cor02);
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        color: var(--cor01);
+        padding: 0px 16px;
+    }
+
+    .rodape-imagem {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape-imagem {
+        height: 36px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+    }
+
+    .cabecalho-imagem {
+        height: 72px;
+        padding-bottom: 24px;
+    }
+    
+    .cabecalho-menu-item {
+        font-family: var(--cor02);
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--cor01);
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding-top: 16px;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        display: flex;
+        text-align: center;
+        font-family: var(--cor02);
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--cor02);
+    }
+
+    .conteudo-principal-imagem {
+        height: 350px;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        font-family: var(--cor02);
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        color: var(--cor01);
+        padding: 0px 16px;
+    }
+
+    .rodape-imagem {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape-imagem {
+        height: 36px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .cabecalho {
         display: flex;
@@ -52,8 +238,10 @@
     .conteudo-secundario-paragrafo {
         font-family: var(--cor02);
         font-weight: 300;
-        font-size: 1.1vh;
+        text-align: center;
+        font-size: 14px;
         color: var(--cor01);
+        padding: 0px 16px;
     }
 
     .rodape-imagem {
